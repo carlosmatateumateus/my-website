@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap");
+div#skills {
+  width: 100vw;
+  height: 100vh;
+  box-shadow: inset 0 -1px 0 rgb(78, 77, 77);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  div#skills {
+    width: 100vw;
+    height: auto;
+  }
+  div#skills div.block-only {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=skills.css.map */

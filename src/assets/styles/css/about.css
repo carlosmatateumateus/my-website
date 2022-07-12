@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+div#about {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  box-shadow: inset 0 -1px 0 rgb(78, 77, 77);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3em;
+}
+div#about div#nothing {
+  width: 50%;
+  height: 100%;
+}
+div#about div#about-me {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.1em;
+  font-family: "Caveat", sans-serif;
+}
+div#about div#about-me h1 {
+  line-height: 2em;
+  color: #e1e1e6;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 700px) {
+  div#about div#nothing {
+    display: none;
+  }
+  div#about div#about-me {
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.9em;
+  }
+  div#about div#about-me h1 {
+    font-size: 1.1em;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

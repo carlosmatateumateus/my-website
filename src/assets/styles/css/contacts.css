@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap");
+div#contacts {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  box-shadow: inset 0 -1px 0 #3c3c42;
+}
+div#contacts div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#contacts div form {
+  border-radius: 5px;
+  background: rgba(20, 23, 26, 0.9254901961);
+  border: 1.5px solid #3c3c42;
+  width: 360px;
+  height: 430px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3%;
+}
+div#contacts div form input {
+  width: 90%;
+  height: 35px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid lightgray;
+  resize: none;
+}
+div#contacts div form textarea {
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  width: 90%;
+  height: 60px;
+  outline: none;
+  resize: none;
+}
+div#contacts div form input::placeholder {
+  font-weight: 400;
+}
+div#contacts div form button {
+  background: #2284bd;
+  cursor: pointer;
+  width: 35%;
+  height: 35px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+div#contacts div form button img {
+  width: 40px;
+  height: 100%;
+}
+div#contacts div form button:hover {
+  filter: brightness(80%);
+}
+
+@media only screen and (max-width: 700px) {
+  div#contacts div#nothing {
+    display: none;
+  }
+  div#contacts div#form {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+/*# sourceMappingURL=contacts.css.map */
