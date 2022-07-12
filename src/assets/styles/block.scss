@@ -1,0 +1,103 @@
+$baseColor: #14171aec;
+$shapeColor:  #3c3c42;
+$hoverColor:  #2284bd;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap');
+
+div#block:hover{
+    div#text-content{
+        h1.project{
+            display: block;
+        }
+        p.project{
+            display: block;
+        }
+    }
+}
+div#block{
+    cursor: pointer;
+    border-radius: 5px;
+    background: $baseColor;
+    border: 1.5px solid $shapeColor;
+    width: 300px;
+    height: 360px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-size: cover;
+    div#img-h{
+        width: 100%;
+        height: 40%;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    div#buttons{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 5%;
+        
+        button{
+            height: 38px;
+            width: 130px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        button#view_project{
+            background: $shapeColor;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5%;
+        }
+        button#view_website{
+            background: #2077aa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5%;
+        }
+    }
+    div#text-content{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 5%;
+        h1{
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 38px;
+            color: #e1e1e6;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #a8a8b3;
+        }
+        h1.project{
+            transition: 1s;
+            display: none;
+        }
+        p.project{
+            transition: 1s;
+            display: none;
+        }
+    }
+}
