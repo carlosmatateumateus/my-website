@@ -1,4 +1,4 @@
-import '../assets/styles/projects.scss'
+import '../assets/styles/css/projects.css'
 import Block from '../components/Block';
 
 //Images

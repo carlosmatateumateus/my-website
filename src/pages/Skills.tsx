@@ -1,4 +1,4 @@
-import '../assets/styles/skills.scss';
+import '../assets/styles/css/skills.css';
 import Block from '../components/Block';
 
 //Images

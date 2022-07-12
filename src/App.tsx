@@ -4,7 +4,7 @@ import Skills from './pages/Skills'
 import Projects from './pages/Projects'
 import Contacts from './pages/Contacts'
 
-import './assets/styles/globalstyles.scss'
+import './assets/styles/css/globalstyles.css'
 import arrow from './assets/images/arrow.png'
 
 const App = () =>{

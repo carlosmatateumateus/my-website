@@ -1,5 +1,5 @@
-import '../assets/styles/home.scss'
-import '../assets/styles/menu.scss'
+import '../assets/styles/css/home.css'
+import '../assets/styles/css/menu.css'
 import logo from '../assets/images/logo.png'
 
 const Home = () =>{
