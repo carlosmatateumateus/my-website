@@ -38,7 +38,7 @@ const Block = (props: Props) =>{
                             <img src={github_logo} alt="" />
                         </button>
                         <button id="view_website">
-                            View site
+                            View
                             <img src={site_logo} alt="" />
                         </button>
                     </div>
