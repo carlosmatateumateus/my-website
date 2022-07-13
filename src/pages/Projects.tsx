@@ -3,7 +3,7 @@ import Block from '../components/Block';
 
 //Images
 
-import project1 from '../assets/images/project.jpeg';
+import project1 from '../assets/images/project1.png';
 import project2 from '../assets/images/project.jpeg';
 import project3 from '../assets/images/project.jpeg';
 
@@ -12,14 +12,14 @@ const Projects = () =>{
         <div id='projects'>
             <h1 className='title'>Projects</h1>
             <div className='block-only'>
-                <Block title='Python' src={project1} propertie="project">
-                    I have two years of experience with the Python language, I am currently studying backend development with it using the Django framework.
+                <Block title='Notepad(Html, css, Django)' src={project1} propertie="project" url_project='https://github.com/carlosmatateumateus/todo'>
+                    ...
                 </Block>
-                <Block title='Javascript' src={project2} propertie="project">
-                    I have 8 months of experience with Javascript. I'm currently studying React js and Redux.
+                <Block title='Soon' src="" propertie="project" url_project=''>
+                   ...
                 </Block>
-                <Block title='Front-end development' src={project3} propertie="project">
-                    I have 1 year of experience with web development. Using only html and css at the beginning and then other technologies, such as: Django, git...
+                <Block title='Soon' src="" propertie="project" url_project=''>
+                    ...
                 </Block>
             </div>
         </div>

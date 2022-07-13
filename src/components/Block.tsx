@@ -7,6 +7,7 @@ type Props = {
     children: string,
     src: string;
     propertie: string;
+    url_project: string,
 }
 
 const Block = (props: Props) =>{
@@ -28,15 +29,17 @@ const Block = (props: Props) =>{
                 </div>
     }
     else{
-        block = <div id='block' style={{backgroundImage: `url(${props.src})`}}>
-                    <div id="img-h">
-                        
+        block = <div id='block' style={{backgroundImage: `url(${props.src})`, backgroundColor: 'rgb(100, 100, 100'}}>
+                    <div id="img-h" style={{display: 'flex', justifyContent: 'center', alignItems: 'flex-end', color: 'rgb(200, 200, 200)'}}>
+                        <h1 style={{fontSize: '1em'}}>{props.title}</h1>       
                     </div>
                     <div id="buttons" >
-                        <button id='view_project'>
-                            View project
-                            <img src={github_logo} alt="" />
-                        </button>
+                        <a href={props.url_project} style={{textDecoration: 'none'}} target="_blank">
+                            <button id='view_project'>
+                                View project
+                                <img src={github_logo} alt="" />
+                            </button>
+                        </a>
                         <button id="view_website">
                             View
                             <img src={site_logo} alt="" />
