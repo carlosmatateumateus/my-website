@@ -4,8 +4,6 @@ import Block from '../components/Block';
 //Images
 
 import project1 from '../assets/images/project1.png';
-import project2 from '../assets/images/project.jpeg';
-import project3 from '../assets/images/project.jpeg';
 
 const Projects = () =>{
     return(

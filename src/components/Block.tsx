@@ -2,6 +2,7 @@ import '../assets/styles/css/block.css';
 
 import github_logo from '../assets/images/github.png';
 import site_logo from '../assets/images/site.png';
+
 type Props = {
     title: string,
     children: string,
