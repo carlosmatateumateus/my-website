@@ -1,6 +1,6 @@
 ## 👋 Hi there I'm Carlos Mateus.
 
-<a style="text-decoration: none" href="https://carlosmateus.vercel.app">
+<a href="https://carlosmateus.vercel.app" target="_blank">
   <h1 style="color: blue;">Visit My website🌐</h1>
 </a>
 
